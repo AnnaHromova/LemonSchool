@@ -2,7 +2,8 @@
 <html lang='en'>
 <head>
 	<meta charset='UTF-8'>
-	<title>Homework 7</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Homework 10</title>
 	<link rel='stylesheet' href='css/style.css'>
 </head>
 
@@ -10,8 +11,8 @@
 <div class='wrapper'>
 	<header class='header'>
 		<div class='header-top'>
-			<div class='container clearfix'>
-				<ul>
+			<div class='container'>
+				<ul class='clearfix'>
 					<li><a href="tel:+380991234567">050-123-45-67</a></li>
 					<li><a href="mailto:test@test.com">sumki@gmail.com</a></li>
 				</ul>
@@ -25,7 +26,7 @@
 				</a>
 			</div>
 			
-			<form>
+			<form class='clearfix'>
 				<div class='search'>
 					<p>
 					<input type="search" name="q" placeholder="Поиск по сайту"> 
@@ -35,14 +36,17 @@
 			</form>
 		</div>
 		<nav class='navigation'>
-			<ul class='container'>
-				<li><a href='#'>Главная</a></li>
-				<li><a href='#'>Акции</a></li>
-				<li><a href='#'>Каталог</a></li>
-				<li><a href='#'>Контакты</a></li>
-				<li><a href='#'>Корзина</a></li>
-			
-			</ul>
+			<span class='mobile-btn'>
+				<span></span>
+			</span>
+					<ul class='container'>
+						<li><a href='#'>Главная</a></li>
+						<li><a href='#'>Акции</a></li>
+						<li><a href='#'>Каталог</a></li>
+						<li><a href='#'>Контакты</a></li>
+						<li><a href='#'>Корзина</a></li>
+					
+					</ul>
 		</nav>
 	</header>
 	
@@ -52,6 +56,9 @@
 				<div class='menu'>
 					<h3>Категории:</h3>
 					<nav>
+						<span class='mobile-menu'>
+							<span></span>
+						</span>
 						<ul>
 							<li><a href='#'>Клатчи</a></li>
 							<li><a href='#'>Сумки через плечо</a></li>
